@@ -2,7 +2,7 @@
 
 本方式只是整理了[imsxm.com] 的套路，纯属搬运适用于习惯docker的懒人, 仅用于测试学习使用，商业请使用正版。 
 
-# useage
+# usage
 ``` 
 docker run --name jetbrains-active-test -v ./nginx.conf:/etc/nginx/nginx.conf:ro -p 8888:80 -d nginx:latest
 ```
