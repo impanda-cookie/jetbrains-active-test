@@ -4,6 +4,6 @@
 
 # usage
 ``` 
-docker run --name jetbrains-active-test -v <current_nginx.conf>:/etc/nginx/nginx.conf:ro -p 8888:80 -d nginx:latest
+docker run --name jetbrains-active-test -v <current_nginx.conf>:/etc/nginx/nginx.conf:ro -p 8888:80 -d nginx:alpine
 ```
 > 如果本方式未过期的话，在jetbrains的`license server` 中输入 `http://localhost:8888` 激活即可(_windowns/mac osx 则输入虚拟机所在IP_)
