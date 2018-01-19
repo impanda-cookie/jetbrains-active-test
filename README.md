@@ -6,4 +6,9 @@
 ``` 
 docker run --name jetbrains-active-test -v ./nginx.conf:/etc/nginx/nginx.conf:ro -p 8888:80 -d nginx:latest
 ```
+# or
+```
+docker run -d --name  jetbrains-active-test -p 8888:80 cowpanda/jetbrains-active-test:latest
+```
+
 > 如果本方式未过期的话，在jetbrains的`license server` 中输入 `http://localhost:8888` 激活即可(_windowns/mac osx 则输入虚拟机所在IP_)
