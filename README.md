@@ -1,3 +1,5 @@
+# 注意: `对于version > 2018.1.x`产品本方法已被弃用，最新的套路请参照:https://www.imsxm.com/jetbrains-license-server.html , 纯属搬运，仅限学习.
+
 # jetbrains-easy-active-test
 
 本方式只是整理了[imsxm.com] 的套路，纯属搬运适用于习惯docker的懒人, 仅用于测试学习使用，商业请使用正版。 
